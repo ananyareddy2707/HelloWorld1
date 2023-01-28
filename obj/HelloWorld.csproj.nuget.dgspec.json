@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Ananyareddy/Desktop/HelloWorld/HelloWorld.csproj": {}
+    "/Users/Ananyareddy/Desktop/HelloWorld1/HelloWorld.csproj": {}
   },
   "projects": {
-    "/Users/Ananyareddy/Desktop/HelloWorld/HelloWorld.csproj": {
+    "/Users/Ananyareddy/Desktop/HelloWorld1/HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Ananyareddy/Desktop/HelloWorld/HelloWorld.csproj",
+        "projectUniqueName": "/Users/Ananyareddy/Desktop/HelloWorld1/HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "/Users/Ananyareddy/Desktop/HelloWorld/HelloWorld.csproj",
+        "projectPath": "/Users/Ananyareddy/Desktop/HelloWorld1/HelloWorld.csproj",
         "packagesPath": "/Users/Ananyareddy/.nuget/packages/",
-        "outputPath": "/Users/Ananyareddy/Desktop/HelloWorld/obj/",
+        "outputPath": "/Users/Ananyareddy/Desktop/HelloWorld1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Ananyareddy/.nuget/NuGet/NuGet.Config"
