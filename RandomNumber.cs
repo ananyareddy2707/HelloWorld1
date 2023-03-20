@@ -1,25 +1,23 @@
 ﻿using System;
-public class GetValue
-{
-    public string name { get; } = "Bat";
-}
 class RandomNumber
 {
-    private string ran;
-    public RandomNumber()
+    private string name;
+
+    //parameterized constructor 
+    public RandomNumber (string userName)
     {
-        
+        name = userName;
     }
-    static void MyMethod(string myString)
-            {
-                Random rnd = new Random();
-                int rndNum = rnd.Next(1, 100);
-                Console.WriteLine(rndNum + myString);
-            }
+    static void MyMethod(string user)
+    {
+        Random rnd = new Random();
+        int rndNum = rnd.Next(1, 100);
+        Console.WriteLine (rndNum + user);
+    } 
     static void Main(string[] args)
-    { 
-        MyMethod("Ananya");
-        GetValue val = new GetValue();
-        Console.WriteLine(val.name);
+    {
+        RandomNumber rndNum = new RandomNumber("Ananya");
+        MyMethod(rndNum.name);
     }
 }
+
