@@ -16,7 +16,7 @@ class RandomNumber
     } 
     static void Main(string[] args)
     {
-        RandomNumber rndNum = new RandomNumber("Ananya");
+        RandomNumber rndNum = new RandomNumber("Ananyaa");
         MyMethod(rndNum.name);
     }
 }
